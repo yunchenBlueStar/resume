@@ -1,13 +1,13 @@
 /*Progress*/
 
-$(document).ready(function(){
+window.onload=function(){
 	
   $("#skillbar_html").animate({width:'85%'},1500);
   $("#skillbar_py").animate({width:'90%'},1500);
   $("#skillbar_js").animate({width:'75%'},1500);
   $("#skillbar_net").animate({width:'78%'},1500);
   $("#skillbar_java").animate({width:'80%'},1500);
-  });
+  };
 
 /*Progress*/
 
